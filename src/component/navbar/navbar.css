@@ -1,18 +1,37 @@
-nav {
-    top: 10px;
+.navbar {
     display: flex;
-    justify-content: space-around;
-    background-color: blue;
-    width: 100%;
+    background-color:#383838;
+    border-bottom: 3px solid #85FDA3;
 }
 
-button {
+.nav {
+    display: flex;
+    justify-content: flex-start;
     padding: 10px;
-    margin: 5px;
-    border: 1px solid red;
-    border-radius: 30px;
+    margin: 10px;
+}
+
+.button {
     background-color: transparent;
+    border: 1px solid #85FDA3;
+    border-radius: 30px;
     color: white;
-    font-size: calc(10px + 2vmin);
-    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search>p {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.search>input {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.search>button {
+    background-color: #85FDA3;
 }
